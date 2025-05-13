@@ -1,0 +1,14 @@
+name: microbiome-pipeline
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - nextflow
+  - kraken2
+  - bioconductor-dada2
+  - pandas
+  - scikit-learn
+  - r-base
+  - r-caret
+  - r-ggplot2
