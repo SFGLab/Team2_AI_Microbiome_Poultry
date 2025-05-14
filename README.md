@@ -75,3 +75,27 @@ flowchart TD
   H --> I[Report]
 
 >>>>>>> 373c3461f7923987e89a4f161f3d09e5685b0813
+
+# Data Retrieval and Preprocessing
+
+## Script: `data_retrieval.sh`
+
+This script automates the process of:
+
+1. Downloading sequencing data from ENA using a BioProject ID.
+2. Performing adapter trimming using `fastp`.
+3. Generating a MultiQC report for quality control.
+
+## Usage
+
+To run the script, use the following command:
+
+```bash
+./data_retrieval.sh [BioProject_ID]
+
+```bash 
+./data_retrieval.sh PRJNA707106
+
+---
+
+
