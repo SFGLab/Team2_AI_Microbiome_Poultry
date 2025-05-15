@@ -241,5 +241,5 @@ Species_taxa$site <- substr(species_taxa$sample_alias,
                           nchar(species_taxa$sample_alias))
 
 
-write.csv(Genus_taxa, file = "/home/karthi/bioai/Team2_AI_Microbiome_Poultry/objects/Genus_taxonomy.csv")
-write.csv(Species_taxa, file = "/home/karthi/bioai/Team2_AI_Microbiome_Poultry/objects/Species_taxonomy.csv")
+write.csv(Genus_taxa, file = "/home/karthi/bioai/Team2_AI_Microbiome_Poultry/objects/Genus_featuretable.csv")
+write.csv(Species_taxa, file = "/home/karthi/bioai/Team2_AI_Microbiome_Poultry/objects/Species_featuretable.csv")
